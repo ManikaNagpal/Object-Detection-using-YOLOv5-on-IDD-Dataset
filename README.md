@@ -54,14 +54,14 @@ idd20k_lite/
 ## Usage
 
 ### 1. Clone the repository and mount dataset
-"""bash
+```bash
 git clone <repo-url>
-"""
+```
 
 ### 2. Run the main pipeline
-"""bash
+```bash
 python main.py
-"""
+```
 
 This will:
 
