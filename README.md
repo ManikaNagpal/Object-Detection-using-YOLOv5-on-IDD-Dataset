@@ -4,14 +4,14 @@ This repository provides a complete pipeline for training YOLOv5 on the [**India
 ## Repository Structure
 
 The repository is organized as follows:
-"
+```
 .
 |- main.py                # Orchestrates the entire workflow: preprocessing, dataset mirroring, training, inference
 |- data_pipeline.py       # Handles semantic label processing and YOLO-compatible dataset creation
 |- training.py            # Installs YOLOv5, sets up dataset YAML, trains the model, and runs inference
 |- idd_yolo_colab.ipynb   # Google Colab notebook version (messy/unorganized but usable)
 \- README.md
-"
+```
 
 Each file serves a specific purpose:
 
