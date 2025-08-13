@@ -5,7 +5,7 @@ from training import install_yolov5, create_yaml, train_yolov5, run_inference
 # ----------------------------
 # Specify Paths 
 # ----------------------------
-gtfine_train_dir = ".....idd20k_lite/gtFine/train"
+gtfine_dir = ".....idd20k_lite/gtFine/"
 yolo_label_dir = "...../yolo_labels"
 images_root = "..../idd20k_lite/leftImg8bit"
 dataset_root = "...../idd_yolo"
@@ -14,7 +14,7 @@ classes = ["road","parking","sidewalk","non_drivable","person/animal","rider","v
 # ----------------------------
 # 1) Convert semantic labels to YOLO
 # ----------------------------
-convert_semantic_to_yolo(gtfine_train_dir, yolo_label_dir)
+convert_semantic_to_yolo(gtfine_dir, yolo_label_dir)
 
 # ----------------------------
 # 2) Mirror dataset for YOLO training
