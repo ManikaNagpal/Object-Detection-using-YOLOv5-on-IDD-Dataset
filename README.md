@@ -20,6 +20,30 @@ Each file serves a specific purpose:
 - **training.py**: Handles YOLOv5 installation, dataset YAML creation, model training, and running inference.  
 - **YOLOv5 Object Detection.ipynb**: Interactive Colab notebook for step-by-step experimentation, though less organized.
 
+  ## Prerequisites
+
+Before running the code, ensure you have the following installed on your system:
+
+- Python ≥ 3.8
+- pip (Python package manager)
+- Git (for cloning the YOLOv5 repository)
+
+Python libraries required:
+
+```bash
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install seaborn
+pip install Pillow
+pip install opencv-python
+pip install albumentations==1.0.3
+pip install torch torchvision torchaudio
+pip install PyYAML
+pip install tqdm
+pip install requests
+```
+
 ## Dataset
 
 The pipeline uses the **IDD Lite Dataset**.  
