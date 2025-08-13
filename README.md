@@ -49,7 +49,7 @@ idd20k_lite/
    Installs YOLOv5 automatically, creates dataset YAML, trains the model, and allows running inference on test images.
 
 4. **Optional Colab Notebook**  
-   Quick experimentation in Google Colab (`idd_yolo_colab.ipynb`), though less organized than the modular scripts.
+   Quick experimentation in Google Colab (`YOLOv5 Object Detection.ipynb`), though less organized than the modular scripts.
 
 ## Usage
 
