@@ -20,7 +20,7 @@ Each file serves a specific purpose:
 - **training.py**: Handles YOLOv5 installation, dataset YAML creation, model training, and running inference.  
 - **YOLOv5 Object Detection.ipynb**: Interactive Colab notebook for step-by-step experimentation, though less organized.
 
-  ## Prerequisites
+## Prerequisites
 
 Before running the code, ensure you have the following installed on your system:
 
