@@ -10,6 +10,7 @@ yolo_label_dir = "...../yolo_labels"
 images_root = "..../idd20k_lite/leftImg8bit"
 dataset_root = "...../idd_yolo"
 classes = ["road","parking","sidewalk","non_drivable","person/animal","rider","vehicles"]
+test_images = "...../idd20k_lite/leftImg8bit/test/**/*.jpg"
 
 # ----------------------------
 # 1) Convert semantic labels to YOLO
@@ -39,6 +40,5 @@ exp_dir = train_yolov5(yaml_path, img_size=320, batch_size=16, epochs=1, weights
 # ----------------------------
 # 6) Run inference on test images
 # ----------------------------
-test_images = "...../idd20k_lite/leftImg8bit/test/**/*.jpg"
 weights_path = os.path.join(exp_dir, "weights/best.pt")
 run_inference(weights_path, test_images)
