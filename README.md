@@ -9,7 +9,7 @@ The repository is organized as follows:
 |- main.py                # Orchestrates the entire workflow: preprocessing, dataset mirroring, training, inference
 |- data_pipeline.py       # Handles semantic label processing and YOLO-compatible dataset creation
 |- training.py            # Installs YOLOv5, sets up dataset YAML, trains the model, and runs inference
-|- idd_yolo_colab.ipynb   # Google Colab notebook version (messy/unorganized but usable)
+|- YOLOv5 Object Detection.ipynb   # Google Colab notebook version (messy/unorganized but usable)
 \- README.md
 ```
 
@@ -18,7 +18,7 @@ Each file serves a specific purpose:
 - **main.py**: Integrates all steps from data preprocessing to YOLOv5 training and inference.  
 - **data_pipeline.py**: Contains functions to convert semantic masks to YOLO labels and mirror the dataset structure.  
 - **training.py**: Handles YOLOv5 installation, dataset YAML creation, model training, and running inference.  
-- **idd_yolo_colab.ipynb**: Interactive Colab notebook for step-by-step experimentation, though less organized.
+- **YOLOv5 Object Detection.ipynb**: Interactive Colab notebook for step-by-step experimentation, though less organized.
 
 ## Dataset
 
@@ -27,7 +27,7 @@ The pipeline uses the **IDD Lite Dataset**.
 - **Download link:** [IDD20k Lite](https://idd.insaan.iiit.ac.in/accounts/login/?next=/dataset/download/)  
 - The dataset should be placed in your drive or local directory. By default, the scripts expect the following structure:
 
-"
+```
 idd20k_lite/
 |- gtFine/
    |- train/
@@ -35,7 +35,7 @@ idd20k_lite/
 |- leftImg8bit/
    |- train/
    |- val/
-"
+```
 
 ## Features
 
@@ -73,7 +73,7 @@ This will:
 - Run inference on test images
 
 ### 3. Optional: Use the Colab notebook
-Open `idd_yolo_colab.ipynb` in Google Colab for an interactive, step-by-step workflow.
+Open `YOLOv5 Object Detection.ipynb` in Google Colab for an interactive, step-by-step workflow.
 
 ## Customization
 
