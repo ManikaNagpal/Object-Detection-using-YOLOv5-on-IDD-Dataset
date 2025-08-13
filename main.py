@@ -1,6 +1,3 @@
-from google.colab import drive
-drive.mount('/content/drive')
-
 import os
 from data_pipeline import convert_semantic_to_yolo, mirror_dataset
 from training import install_yolov5, create_yaml, train_yolov5, run_inference
