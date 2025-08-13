@@ -1,6 +1,5 @@
 # Object-Detection-using-YOLOv5-on-IDD-Dataset
-This repository provides a complete pipeline for training YOLOv5 on the [**Indian Driving Dataset (IDD) by IIT Bombay**](<https://idd.insaan.iiit.ac.in/>). It includes modular Python scripts for preprocessing, dataset preparation, and model training, along with an optional Google Colab notebook for quick experimentation.
-
+This repository provides a complete pipeline for training YOLOv5 on the [**Indian Driving Dataset (IDD) by IIT Bombay**](<https://idd.insaan.iiit.ac.in/>). It includes modular Python scripts for preprocessing, dataset preparation, and model training, along with an optional Google Colab notebook for quick experimentation. 
 ## Repository Structure
 
 The repository is organized as follows:
@@ -115,8 +114,4 @@ Open `YOLOv5 Object Detection.ipynb` in Google Colab for an interactive, step-by
 
 - [YOLOv5 GitHub](https://github.com/ultralytics/yolov5)  
 - [Indian Driving Dataset (IDD)](https://idd.insaan.iiit.ac.in/accounts/login/?next=/dataset/download/)
-
-## Author
-
-This pipeline was developed to provide a clean, modular workflow for training YOLOv5 on the IDD dataset, along with an optional Colab notebook for experimentation."
 
