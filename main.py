@@ -9,7 +9,8 @@ gtfine_dir = ".....idd20k_lite/gtFine/"
 yolo_label_dir = "...../yolo_labels"
 images_root = "..../idd20k_lite/leftImg8bit"
 dataset_root = "...../idd_yolo"
-classes = ["road","parking","sidewalk","non_drivable","person/animal","rider","vehicles"]
+classes = ["non_drivable", "parking","person/animal","rider","road","sidewalk","vehicles"]
+NUM_CLASSES = len(CLASSES)
 test_images = "...../idd20k_lite/leftImg8bit/test/**/*.jpg"
 
 # ----------------------------
